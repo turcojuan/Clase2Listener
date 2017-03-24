@@ -21,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
         View.OnClickListener listener = new MyListener();
         btn.setOnClickListener(listener);
 
+        Button btn2 =(Button) findViewById(R.id.btn2);
+        btn.setText("Cambiar texto");
+
+        btn2.setOnClickListener(listener);
 
     }
 }
